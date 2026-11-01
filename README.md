@@ -20,6 +20,15 @@ python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/inst
   --path skills/add-prd
 ```
 
+如果本机 Python 下载时出现 SSL 证书错误，可改用 Git 稀疏检出：
+
+```bash
+python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
+  --repo iddgithub/codex-skill-add-prd \
+  --path skills/add-prd \
+  --method git
+```
+
 安装完成后，在下一轮对话中即可使用。
 
 也可以将以下 GitHub 目录链接交给支持 Skill 安装的 Codex：
