@@ -1,0 +1,7 @@
+interface:
+  display_name: "PPT 风格选样与逐页制作"
+  short_description: "先策划每页重点、大纲与完整上屏稿，确认后三种风格各出三页并逐字对应"
+  default_prompt: "使用 $ppt-style-studio 按演示目的规划每页重点、写全上屏文案并汇总PPT大纲，等我确认，随后以比赛风格和两种业务定制风格各制作三个对应核心页面供我选择，再按确认表逐页制作全稿。"
+
+policy:
+  allow_implicit_invocation: true
